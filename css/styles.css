@@ -2,9 +2,11 @@
   --brand-colour: #2196f3;
   --text-one: #212121;
   --text-two: #757575;
+  --text-three: #000;
   --background-one: #2f303a;
   --background-two: #f5f4fa;
   --font-families: 'Roboto';
+  --basic-color: #fff;
 }
 
 .body {
@@ -15,7 +17,7 @@
 .link,
 .header-link {
   text-decoration: none;
-  color: #000;
+  color: var(--text-three);
 }
 
 .link,
@@ -25,7 +27,7 @@
 }
 
 .button-general {
-  background-color: #f5f4fa;
+  background-color: var(--background-two);
   border: none;
   cursor: pointer;
   font-size: 16px;
@@ -50,12 +52,12 @@
 
 .button-general:hover {
   background-color: var(--brand-colour);
-  color: #fff;
+  color: var(--basic-color);
 }
 
 .order {
   background-color: var(--brand-colour);
-  color: #fff;
+  color: var(--basic-color);
   font-size: 16px;
   font-weight: 700;
   line-height: 188%;
@@ -63,13 +65,13 @@
 }
 
 .order:hover {
-  background-color: #fff;
+  background-color: var(--basic-color);
   color: var(--brand-colour);
 }
 
 .section-one {
   background-color: var(--background-one);
-  color: #fff;
+  color: var(--basic-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 136%;
@@ -85,11 +87,11 @@
 
 .footer {
   background-color: var(--background-one);
-  color: #fff;
+  color: var(--basic-color);
 }
 
 .footer-link {
-  color: #fff;
+  color: var(--basic-color);
   text-decoration: none;
 }
 
@@ -118,7 +120,7 @@
 }
 
 .figure-background {
-  background-color: #fff;
+  background-color: var(--basic-color);
 }
 
 .address {
